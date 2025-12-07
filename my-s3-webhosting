@@ -22,4 +22,4 @@ jobs:
  
       - name: Sync Website to S3
         run: |
-          aws s3 sync "cafe-menu-main (2)/cafe-menu-main" s3://${{ secrets.AWS_BUCKET_NAME }} --delete
+          aws s3 sync "carwebsite-main (2)/carwecsite-main" s3://${{ secrets.AWS_BUCKET_NAME }} --delete
